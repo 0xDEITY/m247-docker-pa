@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>M247</title>
+</head>
+<body>
+    <p><span>$    </span>docker run -dit --name test -v $(pwd):/usr/local/apache2/htdocs -p 8080:80 m247-apache-dp</p>
+
+    <style>
+        body {
+            display: flex;
+            padding: 0;
+            margin: 0;
+            background-color: #202020;
+            font-family: monospace;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+        }
+
+        p span {
+            user-select: none;
+            color: white;
+        }
+
+        p {
+            color: rgb(56, 255, 56);
+            text-shadow: 0 0 5px rgb(56, 255, 56);
+            font-size: large;
+            white-space: pre;
+            padding: 1rem;
+            background-color: #252525;
+            border-radius: .5rem;
+            border: 1px solid #404040;
+        }
+    </style>
+</body>
+</html>
