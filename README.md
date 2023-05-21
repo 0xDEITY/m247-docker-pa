@@ -19,3 +19,6 @@ Es wird ein Mount direkt in der momentanen Directory erstellt, damit kann man di
 - https://hub.docker.com/_/httpd
 - https://www.freecodecamp.org/news/docker-mount-volume-guide-how-to-mount-a-local-directory/
 - Schulmaterial
+
+`Dalibor`
+`Pascal`
